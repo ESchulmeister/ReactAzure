@@ -1,0 +1,292 @@
+/* Provide sufficient contrast against white background */
+
+/*import "../src/themes/generated/variables.base.scss";
+*/
+code {
+    color: #E01A76;
+}
+
+.title {
+    color: #ee0880;
+    white-space: nowrap;
+    font-variant: small-caps;
+    cursor: none;
+    padding-bottom: 2px;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+form {
+    margin: 10px;
+}
+
+.dxControl {
+    width: 265px;
+}
+
+.dx-field {
+    min-height: 5px;
+}
+
+.custDatePicker {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0;
+    padding: 7px 9px 8px;
+    color: #333;
+    font-size: 1em;
+    border-radius: 4px;
+    min-height: 34px;
+}
+
+.errImg {
+    width: 20px;
+    height: 20px;
+}
+
+.header {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+.form {
+    padding: 15px;
+}
+
+
+.form img {
+    margin: 2px 2px 2px 2px;
+}
+
+
+.mnuImg {
+    width: 30px;
+    height: 30px;
+    margin: 2px 1px 2px 1px;
+    cursor: pointer;
+}
+
+
+.questImg {
+    width: 50px;
+    height: 50px;
+    margin: 2px 1px 2px 1px;
+    min-height: 45px;
+}
+
+.dx-field-value {
+    min-width: 0 !important
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.homeCenter {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cFooter {
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    font-size: 10px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+
+.oLabel {
+    color: #0c4774;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    cursor: none;
+    padding-bottom: 15px;
+}
+
+.custLabel {
+    color: #f17212;
+    font-size: 15px;
+    font-weight: 700;
+    white-space: nowrap;
+    cursor: none;
+    padding-bottom: 10px;
+    width:350px;
+    margin:auto;
+}
+
+
+.custHr {
+    width: 95%;
+    text-align: center;
+    margin: 40px;
+    margin-bottom: 5px;
+}
+
+.dxLabel {
+    color: #f05b41;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+hr.custHr {
+    border-top: 1px solid #8108e0;
+}
+
+.link {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.dx-fieldset:first-child > h4:first-child {
+    margin-top: 0;
+}
+
+#container > .dx-field > .dx-field-label {
+    width: 20%;
+}
+
+#container > .dx-field > .dx-field-value {
+    width: 80%;
+}
+
+
+#button {
+    color: #ddd;
+    border-color: #808080;
+    background-color: #1b6ec2;
+}
+
+
+
+.tagLabel {
+    color: #cc0808;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.loadCenter {
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.outLink {
+    color: #1b6ec2;
+}
+
+.alert {
+    color: red;
+    font-weight: 600;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    margin:auto;
+}
+
+.preview {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    margin: auto;
+}
+
+.dxTextLong .dx-texteditor-input {
+    font-weight: bold;
+    background: #ddd;
+    border-bottom: 3px solid #05252e;
+    border-radius: .1px
+}
+
+
+.dxTextShort .dx-texteditor-input {
+    background: #ddd;
+    border-radius: .1px;
+}
+
+.dx-texteditor-input {
+    /*    background: #ddd;
+*/ border-radius: .1px;
+}
+
+
+.dxDate .dx-texteditor-input {
+    font-weight: bold;
+    background: #ddd;
+    border-bottom: 3px solid #05252e;
+    border-radius: .1px
+}
+
+.ta .dx-texteditor-input {
+    background: #ddd;
+    border-bottom: 3px solid #05252e;
+    border-radius: .1px
+}
+
+
+.img {
+    cursor: pointer;
+    border: .1px solid #e1d5d5;
+    margin: 4px 5px 5px 4px;
+}
+
+
+
+.dx-column-indicators {
+    float: unset !important;
+}
+
+.dx-datagrid-action.dx-cell-focus-disabled {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+
+.dx-datagrid .dx-data-row > td.colCenter {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+
+.pad {
+    margin-bottom: 25px;
+}
+
+
+.dx-field-item-label {
+    font-weight: bold;
+    color: #393042;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #afe1fb;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}

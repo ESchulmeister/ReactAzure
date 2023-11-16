@@ -1,0 +1,3 @@
+﻿@using reactAzure
+@namespace reactAzure.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers

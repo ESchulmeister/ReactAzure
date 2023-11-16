@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\reactAzure</_PublishTargetUrl>
+    <History>True|2023-09-19T20:24:50.3918092Z;True|2023-09-08T12:26:34.4315557-04:00;False|2023-09-06T15:03:12.9494165-04:00;True|2023-09-06T12:42:46.9509630-04:00;False|2023-09-06T11:21:02.0376727-04:00;False|2023-09-06T11:15:50.8792654-04:00;True|2023-09-06T10:44:33.0010432-04:00;True|2023-09-06T10:29:39.9932670-04:00;True|2023-09-06T10:08:07.3043619-04:00;True|2023-09-06T09:55:36.7080572-04:00;True|2023-09-06T09:44:10.5613251-04:00;True|2023-09-06T09:32:45.6407834-04:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AzureBlobStorage">
+      <Value>DefaultEndpointsProtocol=https%3bAccountName=cognitiveservices%3bAccountKey=R5iRyTvVCqb6zVj+FHH69VIJo18pyzQtmlQqKonnU17CniOfXNmcQwZS0QiU0hYAob2czBNwOnU1+AStD7UqPw==%3bEndpointSuffix=core.usgovcloudapi.net</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="TechCMSDB">
+      <Value>Server=DEV-VDI-04\SQLEXPRESS%3bDatabase=TechCMS%3bTrusted_Connection=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
